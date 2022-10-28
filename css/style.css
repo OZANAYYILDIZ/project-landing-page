@@ -16,7 +16,16 @@ a {
     color: inherit;
 }
 
+.button {
+    border: solid 2px #fff;
+    padding: 8px;
+    border-radius: 20px;
+}
+
 /* Styling of header */
+.hero-header {
+    margin: 0;
+}
 
 header {
     display: flex;
@@ -41,4 +50,32 @@ nav {
     display: flex;
     gap: 30px;
     font-size: 16px;
+}
+
+/* Styling of Hero img */
+
+.hero {
+    height: 36em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(https://images.unsplash.com/photo-1600618528240-fb9fc964b853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.hero-content {
+    margin: 0 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-header {
+    margin: 0;
+    font-size: 48px;
+}
+
+.hero-text {
+    width: 50%;
 }

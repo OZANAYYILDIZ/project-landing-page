@@ -22,6 +22,13 @@ a {
     border-radius: 20px;
 }
 
+.button-gray {
+    border: solid 1px #ddd;
+    padding: 8px;
+    border-radius: 20px;
+    margin-left: 16px;
+}
+
 /* Styling of header */
 .hero-header {
     margin: 0;
@@ -78,4 +85,65 @@ nav {
 
 .hero-text {
     width: 50%;
+}
+
+/* styling of information cards */
+
+.course-cards {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin: 0 15%;
+}
+
+.info-cards {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.card {
+    width: 240px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 4px 4px 16px 0px rgba(51,51,51,0.73);
+    -moz-box-shadow: 4px 4px 16px 0px rgba(51,51,51,0.73);
+    box-shadow: 4px 4px 16px 0px rgba(51,51,51,0.73);
+}
+
+.card-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card p, h3 {
+    padding-left: 16px;
+}
+
+.card p {
+    padding-bottom: 24px;
+}
+/* styling of quote section */
+
+.quote {
+    background-color: #ddd;
+    height: 24em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text {
+    font-size: 28px;
+    width: 50%;
+    padding: 0 15em;
+}
+
+.author-name {
+    font-size: 24px;
+    font-weight: 700;
+    width: 50%;
+    text-align: end;
+    padding: 0 15em;
+    color: #555;
 }

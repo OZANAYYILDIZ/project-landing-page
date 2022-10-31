@@ -107,6 +107,10 @@ nav {
     margin: 0 15%;
 }
 
+.course-cards h2 {
+    text-align: center;
+}
+
 .info-cards {
     display: flex;
     padding-top: 20px;

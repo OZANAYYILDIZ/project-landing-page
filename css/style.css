@@ -18,13 +18,13 @@ a {
 
 .button {
     border: solid 2px #fff;
-    padding: 8px;
+    padding: 8px 20px;
     border-radius: 20px;
 }
 
 .button-gray {
     border: solid 1px #ddd;
-    padding: 8px;
+    padding: 8px 20px;
     border-radius: 20px;
     margin-left: 16px;
 }
@@ -136,14 +136,43 @@ nav {
 .quote-text {
     font-size: 28px;
     width: 50%;
-    padding: 0 15em;
+    padding-left: 25%;
 }
 
 .author-name {
     font-size: 24px;
     font-weight: 700;
-    width: 50%;
+    padding-right: 15%;
     text-align: end;
-    padding: 0 15em;
     color: #555;
+}
+
+/* styling of call to action */
+
+.action-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #5992A6;
+    -webkit-box-shadow: 4px 4px 16px 0px rgba(51,51,51,0.73);
+    -moz-box-shadow: 4px 4px 16px 0px rgba(51,51,51,0.73);
+    box-shadow: 4px 4px 16px 0px rgba(51,51,51,0.73);
+    border-radius: 10px;
+    width: 70%;
+    margin: 100px auto;
+    color: #fff;
+}
+
+.action-text h3 {
+    padding-left: 0;
+    font-size: 24px;
+}
+
+.action-text p {
+    padding-bottom: 24px;
 }
